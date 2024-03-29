@@ -5,8 +5,8 @@ export default function ImjComp({data}) {
     <div className='p-1'>
       <img src="https://plus.unsplash.com/premium_photo-1710548651496-59502bba8e80?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHx8" alt="" />
 
-      <h1>{data[0].CategoryName}</h1>
-      <p className="">{data[0].description}</p>
+      <h1>{data[0]?.CategoryName}</h1>
+      <p className="">{data[0]?.description}</p>
 
 
 

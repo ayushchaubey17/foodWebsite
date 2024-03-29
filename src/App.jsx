@@ -15,11 +15,14 @@ export default function App() {
 
 {/* <YourPage/> */}
       <Routes>
-      <Route path= "/register" element= {<Register/>}></Route>
       <Route index  element= {<Home/>}></Route>
-        <Route path= "login" element= {<Login/>}></Route>
-        <Route path= "yourpage" element= {<YourPage/>}></Route>
+     
+       <Route path= "/register" element= {<Register/>}/>
+         
+        <Route path= "/login" element= {<Login/>}></Route>
+        <Route path= "/yourpage" element= {<YourPage/>}></Route>
         <Route path= "*" element= {<NoPage/>}></Route>
+        
        
       </Routes>
 
